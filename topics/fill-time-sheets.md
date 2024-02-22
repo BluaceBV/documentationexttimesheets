@@ -18,9 +18,9 @@ The time sheet can be filled.
 
 ### Fill the Time Sheet
 1.	In the field **Type**, select the type **Job**.
-2.	In the field **No.** select the desired job number. In this view only the jobs are visible where the resource is link as a ‘job resource’. > e.g. **Int. Niet Productief**.
-3.	In the field **Job Task No.** select the related task > e.g.. **Leave/Verlof**.
-4.	Fill in the **Description** field a description of the related line > e.g. **Leave May holidays**.
+2.	In the field **No.** select the desired job number. In this view only the jobs are visible where the resource is link as a ‘job resource’.
+3.	In the field **Job Task No.** select the related task.
+4.	Fill in the **Description** field a description of the related line.
 5.	Enter your hours in the related fields of the days of the week.
 
 ![Filled Time Sheet](../images/fill-time-sheets/filled-time-sheet.png)

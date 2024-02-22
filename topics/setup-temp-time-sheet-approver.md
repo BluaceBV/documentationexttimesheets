@@ -6,7 +6,7 @@ In the Extended Time Sheet solution an option is included to temporarily adjust 
 
 Via the action Temp. Time Sheet Approvers you can specify a temporary approver for a project or a resource by means of a Start- and End Date.
 
-> [!CAUTION]
+> [!IMPORTANT]
 The Starting Date must be equal to the first week day setting in the Resource Setup. Usually this is Monday.
 The Ending Date is always a date that corresponds to the last day of the timesheet setting in the Resource Setup. Usually this is Sunday.
 
