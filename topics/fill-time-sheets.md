@@ -1,10 +1,10 @@
 # Manual Extended Time Sheets
-Do you want the user responsible for a Job to approve the resource hours written on the project, with this extension you can set a time sheet approver on a Job. 
+Do you want the user responsible for a project to approve the resource hours written on the project, with this extension you can set a time sheet approver on a project. 
 
 ## Fill Time Sheets
 
 ### Open Time Sheets
-From your Role Center, open the Time Sheet via the Tile **Open Time Sheets** in het Fast-Tab **Self-service**. 
+From your Role Center, open the Time Sheet via the Tile **Open Time Sheets** in the Fast-Tab **Self-service**. 
 
 ![Self Service Tile](../images/fill-time-sheets/self-service.png)
 
@@ -17,20 +17,23 @@ The time sheet can be filled.
 ![Time Sheet Page](../images/fill-time-sheets/time-sheet-page.png)
 
 ### Fill the Time Sheet
-1.	In the field **Type**, select the type **Job**.
-2.	In the field **No.** select the desired job number. In this view only the jobs are visible where the resource is link as a ‘job resource’.
-3.	In the field **Job Task No.** select the related task.
-4.	Fill in the **Description** field a description of the related line.
+1.	In the field **Type**, select the type **Project**.
+2.	In the field **No.** select the desired project number. In this view only the projects are visible where the resource is link as a ‘project resource’. -> **e.g. Int. Niet Productief**
+3.	In the field **Project Task No.** select the related task. -> e.g. Leave/Verlof
+4.	Fill in the **Description** field a description of the related line. -> e.g. Leave May holidays.
 5.	Enter your hours in the related fields of the days of the week.
 
 ![Filled Time Sheet](../images/fill-time-sheets/filled-time-sheet.png)
 
-In the Fact box you see an overview of the filled hours of that week with, among other things, the status of the time sheet and an overview of the actual hours per day and total.
+In the FactBox you see an overview of the filled hours of that week with, among other things, the status of the time sheet and an overview of the actual hours per day and total.
 
 ![Time Sheet Factbox](../images/fill-time-sheets/time-sheet-factbox.png)
 
+### Customer time sheet
+On the time sheet page in the menu **Home** there is the action **Customer time sheet** to create a customer time sheet report. With this report you can give the customer insight in the hours spent for a given period which will be invoiced at i.e. month end. This report can be signed for approval.
+
 ### Submit a Time Sheet for approval
-After the time sheet has been completed, it must be submitted to the Time Sheet Approver. The approver is visible per line in the time sheet, in the Time Sheet Approver User ID field. This is the time sheet approver that is setup on the Job card (Time Sheet Appr. User ID).
+After the time sheet has been completed, it must be submitted to the Time Sheet Approver. The approver is visible per line in the time sheet, in the Time Sheet Approver User ID field. This is the time sheet approver that is setup on the project card (Time Sheet Appr. User ID).
 
 1.	On the time sheet card select the **Submit** action under Home from the menu.
 2.	The status of the time sheet lines are changed to **Submitted**.
